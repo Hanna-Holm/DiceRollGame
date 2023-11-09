@@ -30,7 +30,7 @@
                 Console.WriteLine("Enter a number");
                 string? userGuess = Console.ReadLine();
 
-                if (_validator.isGuessCorrect(userGuess, _rolledNumber))
+                if (_validator.IsGuessCorrect(userGuess, _rolledNumber))
                 {
                     Console.WriteLine("You win!");
                     return;
